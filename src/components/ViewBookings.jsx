@@ -40,7 +40,7 @@ const ViewBookings = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container table-responsive">
       <h2>View Bookings</h2>
       <table className="table table-striped">
         <thead>

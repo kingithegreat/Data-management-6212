@@ -94,7 +94,7 @@ const UpdateBooking = () => {
     }
 
     alert('Booking updated successfully!');
-    navigate('/');
+    navigate('/home');
   };
 
   return (

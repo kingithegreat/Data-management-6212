@@ -56,7 +56,7 @@ const CreateBooking = () => {
       console.error('Error creating booking:', bookingError);
     } else {
       alert('Booking created successfully!');
-      navigate('/');
+      navigate('/home');
     }
   };
 
