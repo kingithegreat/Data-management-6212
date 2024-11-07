@@ -4,7 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background: url('../images/jetskiHome.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #f7faf5;
+  color: #5770de;
   transition: background 0.5s ease-in-out;
 }
 
@@ -14,7 +14,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(177, 216, 243, 0.5);
+  background: rgba(55, 124, 174, 0.5);
   z-index: -1;
 }
 
@@ -45,8 +45,8 @@ h1, h2 {
 }
 
 .btn-primary {
-  background-color: #007aff;
-  border-color: #007aff;
+  background-color: #c6d0da;
+  border-color: #d4dce5;
 }
 
 .btn-warning {
@@ -102,14 +102,14 @@ h1, h2 {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #a73131;
   border-radius: 5px;
   transition: border-color 0.3s ease;
 }
 
 .auth-input:focus {
   outline: none;
-  border-color: #4a90e2;
+  border-color: #4776ab;
 }
 
 .auth-button {
@@ -117,7 +117,7 @@ h1, h2 {
   padding: 0.75rem;
   border: none;
   border-radius: 5px;
-  background-color: #4a90e2;
+  background-color: #0d61c2;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -250,17 +250,17 @@ h2 {
 }
 
 .table tbody tr:hover {
-  background-color: #e2e8f0;
+  background-color: #2e5e9c;
   cursor: pointer;
 }
 
 .table th {
   font-weight: bold;
-  border-bottom: 2px solid #d1d5db;
+  border-bottom: 2px solid #5f84bb;
 }
 
 .table td {
-  border-bottom: 1px solid #d1d5db;
+  border-bottom: 1px solid #1e529f;
 }
 
 .table-responsive {
