@@ -3,7 +3,7 @@ import { supabase } from '../supabaseClient';
 
 const ViewBookings = () => {
   const [bookings, setBookings] = useState([]);
-
+  
   useEffect(() => {
     const fetchBookings = async () => {
       const { data, error } = await supabase
@@ -31,7 +31,7 @@ const ViewBookings = () => {
       if (error) {
         console.error('Error fetching bookings:', error);
       } else {
-        console.log('Fetched bookings:', data); // Add this line to debug
+        console.log('Fetched bookings:', data); 
         setBookings(data);
       }
     };
